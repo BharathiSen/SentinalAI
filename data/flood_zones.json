@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ZONE-001",
+    "area_name": "Buffalo Bayou Drainage Basin",
+    "risk_level": "extreme",
+    "boundaries": [
+      {"latitude": 29.778234, "longitude": -95.421524},
+      {"latitude": 29.778234, "longitude": -95.391524},
+      {"latitude": 29.748234, "longitude": -95.391524},
+      {"latitude": 29.748234, "longitude": -95.421524},
+      {"latitude": 29.778234, "longitude": -95.421524}
+    ],
+    "current_water_level_cm": 245.5,
+    "status": "rising"
+  },
+  {
+    "id": "ZONE-002",
+    "area_name": "White Oak Bayou Watershed",
+    "risk_level": "high",
+    "boundaries": [
+      {"latitude": 29.821234, "longitude": -95.451234},
+      {"latitude": 29.821234, "longitude": -95.411234},
+      {"latitude": 29.791234, "longitude": -95.411234},
+      {"latitude": 29.791234, "longitude": -95.451234},
+      {"latitude": 29.821234, "longitude": -95.451234}
+    ],
+    "current_water_level_cm": 130.2,
+    "status": "stable"
+  },
+  {
+    "id": "ZONE-003",
+    "area_name": "Meyerland Residential Area",
+    "risk_level": "extreme",
+    "boundaries": [
+      {"latitude": 29.691234, "longitude": -95.491234},
+      {"latitude": 29.691234, "longitude": -95.461234},
+      {"latitude": 29.661234, "longitude": -95.461234},
+      {"latitude": 29.661234, "longitude": -95.491234},
+      {"latitude": 29.691234, "longitude": -95.491234}
+    ],
+    "current_water_level_cm": 185.0,
+    "status": "rising"
+  },
+  {
+    "id": "ZONE-004",
+    "area_name": "Addicks & Barker Reservoirs Floodway",
+    "risk_level": "medium",
+    "boundaries": [
+      {"latitude": 29.811234, "longitude": -95.551234},
+      {"latitude": 29.811234, "longitude": -95.511234},
+      {"latitude": 29.771234, "longitude": -95.511234},
+      {"latitude": 29.771234, "longitude": -95.551234},
+      {"latitude": 29.811234, "longitude": -95.551234}
+    ],
+    "current_water_level_cm": 52.4,
+    "status": "receding"
+  },
+  {
+    "id": "ZONE-005",
+    "area_name": "Greens Bayou Lowlands",
+    "risk_level": "high",
+    "boundaries": [
+      {"latitude": 29.851243, "longitude": -95.321243},
+      {"latitude": 29.851243, "longitude": -95.281243},
+      {"latitude": 29.811243, "longitude": -95.281243},
+      {"latitude": 29.811243, "longitude": -95.321243},
+      {"latitude": 29.851243, "longitude": -95.321243}
+    ],
+    "current_water_level_cm": 115.8,
+    "status": "rising"
+  }
+]

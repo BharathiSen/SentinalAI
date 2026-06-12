@@ -1,0 +1,132 @@
+[
+  {
+    "id": "SH-001",
+    "name": "Houston Central High School Shelter",
+    "location": {
+      "latitude": 29.771234,
+      "longitude": -95.356789,
+      "address": "1190 Heights Blvd, Houston, TX 77008"
+    },
+    "capacity": 500,
+    "current_occupancy": 320,
+    "status": "open",
+    "amenities": ["food", "water", "power_generators", "medical_station", "wifi"]
+  },
+  {
+    "id": "SH-002",
+    "name": "Westside Community Center",
+    "location": {
+      "latitude": 29.734561,
+      "longitude": -95.491234,
+      "address": "9600 Westheimer Rd, Houston, TX 77056"
+    },
+    "capacity": 300,
+    "current_occupancy": 295,
+    "status": "open",
+    "amenities": ["food", "water", "pets_allowed"]
+  },
+  {
+    "id": "SH-003",
+    "name": "NRG Center Mega-Shelter",
+    "location": {
+      "latitude": 29.684512,
+      "longitude": -95.408765,
+      "address": "1 NRG Park, Houston, TX 77054"
+    },
+    "capacity": 2000,
+    "current_occupancy": 1450,
+    "status": "open",
+    "amenities": ["food", "water", "power_generators", "medical_station", "pets_allowed", "wifi"]
+  },
+  {
+    "id": "SH-004",
+    "name": "Lakewood Church Emergency Shelter",
+    "location": {
+      "latitude": 29.731298,
+      "longitude": -95.429012,
+      "address": "3700 Southwest Fwy, Houston, TX 77027"
+    },
+    "capacity": 1000,
+    "current_occupancy": 1000,
+    "status": "full",
+    "amenities": ["food", "water", "medical_station", "wifi"]
+  },
+  {
+    "id": "SH-005",
+    "name": "George R. Brown Convention Center",
+    "location": {
+      "latitude": 29.752143,
+      "longitude": -95.358912,
+      "address": "1001 Avenida De Las Americas, Houston, TX 77010"
+    },
+    "capacity": 3000,
+    "current_occupancy": 1820,
+    "status": "open",
+    "amenities": ["food", "water", "power_generators", "medical_station", "pets_allowed", "wifi"]
+  },
+  {
+    "id": "SH-006",
+    "name": "Bayland Community Center",
+    "location": {
+      "latitude": 29.691234,
+      "longitude": -95.481234,
+      "address": "6400 Bissonnet St, Houston, TX 77074"
+    },
+    "capacity": 250,
+    "current_occupancy": 0,
+    "status": "closed",
+    "amenities": ["food", "water", "power_generators"]
+  },
+  {
+    "id": "SH-007",
+    "name": "Emancipation Community Center",
+    "location": {
+      "latitude": 29.735678,
+      "longitude": -95.362143,
+      "address": "3018 Emancipation Ave, Houston, TX 77004"
+    },
+    "capacity": 400,
+    "current_occupancy": 150,
+    "status": "open",
+    "amenities": ["food", "water", "wifi"]
+  },
+  {
+    "id": "SH-008",
+    "name": "Metropolitan Multi-Service Center",
+    "location": {
+      "latitude": 29.754892,
+      "longitude": -95.401243,
+      "address": "1475 W Gray St, Houston, TX 77019"
+    },
+    "capacity": 350,
+    "current_occupancy": 310,
+    "status": "open",
+    "amenities": ["food", "water", "power_generators", "medical_station", "pets_allowed"]
+  },
+  {
+    "id": "SH-009",
+    "name": "Acres Homes Multi-Service Center",
+    "location": {
+      "latitude": 29.851243,
+      "longitude": -95.431243,
+      "address": "6719 W Montgomery Rd, Houston, TX 77091"
+    },
+    "capacity": 300,
+    "current_occupancy": 180,
+    "status": "open",
+    "amenities": ["food", "water", "power_generators"]
+  },
+  {
+    "id": "SH-010",
+    "name": "Denver Harbor Community Center",
+    "location": {
+      "latitude": 29.776543,
+      "longitude": -95.301243,
+      "address": "6402 Market St, Houston, TX 77020"
+    },
+    "capacity": 200,
+    "current_occupancy": 195,
+    "status": "open",
+    "amenities": ["food", "water", "wifi"]
+  }
+]

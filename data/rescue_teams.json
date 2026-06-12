@@ -1,0 +1,146 @@
+[
+  {
+    "id": "TEAM-001",
+    "name": "Rescue Team Alpha",
+    "type": "search_and_rescue",
+    "status": "deployed",
+    "location": {
+      "latitude": 29.743128,
+      "longitude": -95.394182
+    },
+    "contact": "+1-555-010-2342",
+    "members_count": 8
+  },
+  {
+    "id": "TEAM-002",
+    "name": "Rescue Team Bravo",
+    "type": "search_and_rescue",
+    "status": "active",
+    "location": {
+      "latitude": 29.721491,
+      "longitude": -95.419024
+    },
+    "contact": "+1-555-010-8546",
+    "members_count": 10
+  },
+  {
+    "id": "TEAM-003",
+    "name": "Medical Support Squad A",
+    "type": "medical",
+    "status": "deployed",
+    "location": {
+      "latitude": 29.714567,
+      "longitude": -95.397891
+    },
+    "contact": "+1-555-021-3948",
+    "members_count": 6
+  },
+  {
+    "id": "TEAM-004",
+    "name": "Medical Support Squad B",
+    "type": "medical",
+    "status": "standby",
+    "location": {
+      "latitude": 29.708124,
+      "longitude": -95.403491
+    },
+    "contact": "+1-555-021-9988",
+    "members_count": 5
+  },
+  {
+    "id": "TEAM-005",
+    "name": "Logistics Dispatch East",
+    "type": "logistics",
+    "status": "active",
+    "location": {
+      "latitude": 29.752143,
+      "longitude": -95.358912
+    },
+    "contact": "+1-555-032-4521",
+    "members_count": 4
+  },
+  {
+    "id": "TEAM-006",
+    "name": "Logistics Dispatch West",
+    "type": "logistics",
+    "status": "standby",
+    "location": {
+      "latitude": 29.734561,
+      "longitude": -95.491234
+    },
+    "contact": "+1-555-032-8877",
+    "members_count": 6
+  },
+  {
+    "id": "TEAM-007",
+    "name": "Fire & Rescue Unit 12",
+    "type": "fire",
+    "status": "deployed",
+    "location": {
+      "latitude": 29.789123,
+      "longitude": -95.345612
+    },
+    "contact": "+1-555-043-1122",
+    "members_count": 12
+  },
+  {
+    "id": "TEAM-008",
+    "name": "Fire & Rescue Unit 24",
+    "type": "fire",
+    "status": "active",
+    "location": {
+      "latitude": 29.754892,
+      "longitude": -95.362143
+    },
+    "contact": "+1-555-043-3344",
+    "members_count": 10
+  },
+  {
+    "id": "TEAM-009",
+    "name": "Rescue Team Charlie",
+    "type": "search_and_rescue",
+    "status": "deployed",
+    "location": {
+      "latitude": 29.684512,
+      "longitude": -95.512349
+    },
+    "contact": "+1-555-010-7766",
+    "members_count": 9
+  },
+  {
+    "id": "TEAM-010",
+    "name": "Rescue Team Delta (Water Rescue)",
+    "type": "search_and_rescue",
+    "status": "deployed",
+    "location": {
+      "latitude": 29.761524,
+      "longitude": -95.523491
+    },
+    "contact": "+1-555-010-4499",
+    "members_count": 8
+  },
+  {
+    "id": "TEAM-011",
+    "name": "Medical Support Squad C",
+    "type": "medical",
+    "status": "active",
+    "location": {
+      "latitude": 29.661298,
+      "longitude": -95.321485
+    },
+    "contact": "+1-555-021-1256",
+    "members_count": 6
+  },
+  {
+    "id": "TEAM-012",
+    "name": "Logistics Dispatch South",
+    "type": "logistics",
+    "status": "active",
+    "location": {
+      "latitude": 29.684512,
+      "longitude": -95.408765
+    },
+    "contact": "+1-555-032-1922",
+    "members_count": 5
+  }
+]

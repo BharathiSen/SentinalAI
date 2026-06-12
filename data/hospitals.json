@@ -1,0 +1,106 @@
+[
+  {
+    "id": "HOSP-001",
+    "name": "Texas Medical Center - Emergency Dept",
+    "location": {
+      "latitude": 29.710298,
+      "longitude": -95.399812,
+      "address": "6565 Fannin St, Houston, TX 77030"
+    },
+    "total_beds": 850,
+    "available_beds": 45,
+    "status": "operational",
+    "specialities": ["emergency", "trauma", "icu", "pediatrics"]
+  },
+  {
+    "id": "HOSP-002",
+    "name": "Houston Methodist Hospital",
+    "location": {
+      "latitude": 29.712491,
+      "longitude": -95.401243,
+      "address": "6565 Fannin St, Houston, TX 77030"
+    },
+    "total_beds": 950,
+    "available_beds": 12,
+    "status": "operational",
+    "specialities": ["emergency", "trauma", "icu"]
+  },
+  {
+    "id": "HOSP-003",
+    "name": "Memorial Hermann-Texas Medical Center",
+    "location": {
+      "latitude": 29.714567,
+      "longitude": -95.397891,
+      "address": "6411 Fannin St, Houston, TX 77030"
+    },
+    "total_beds": 1000,
+    "available_beds": 3,
+    "status": "critical",
+    "specialities": ["emergency", "trauma", "icu", "burn_unit"]
+  },
+  {
+    "id": "HOSP-004",
+    "name": "CHI St. Luke's Health - Baylor St. Luke's",
+    "location": {
+      "latitude": 29.708124,
+      "longitude": -95.403491,
+      "address": "6720 Bertner Ave, Houston, TX 77030"
+    },
+    "total_beds": 650,
+    "available_beds": 58,
+    "status": "operational",
+    "specialities": ["emergency", "icu"]
+  },
+  {
+    "id": "HOSP-005",
+    "name": "Harris Health Ben Taub Hospital",
+    "location": {
+      "latitude": 29.715243,
+      "longitude": -95.392143,
+      "address": "1504 Taub Loop, Houston, TX 77030"
+    },
+    "total_beds": 450,
+    "available_beds": 0,
+    "status": "critical",
+    "specialities": ["emergency", "trauma", "icu"]
+  },
+  {
+    "id": "HOSP-006",
+    "name": "HCA Houston Healthcare Medical Center",
+    "location": {
+      "latitude": 29.721243,
+      "longitude": -95.385612,
+      "address": "1313 Hermann Dr, Houston, TX 77004"
+    },
+    "total_beds": 350,
+    "available_beds": 82,
+    "status": "operational",
+    "specialities": ["emergency", "icu"]
+  },
+  {
+    "id": "HOSP-007",
+    "name": "St. Joseph Medical Center",
+    "location": {
+      "latitude": 29.748124,
+      "longitude": -95.368124,
+      "address": "1401 St Joseph Pkwy, Houston, TX 77002"
+    },
+    "total_beds": 400,
+    "available_beds": 0,
+    "status": "damaged",
+    "specialities": ["emergency", "trauma"]
+  },
+  {
+    "id": "HOSP-008",
+    "name": "Texas Children's Hospital",
+    "location": {
+      "latitude": 29.709124,
+      "longitude": -95.401243,
+      "address": "6621 Fannin St, Houston, TX 77030"
+    },
+    "total_beds": 750,
+    "available_beds": 30,
+    "status": "operational",
+    "specialities": ["emergency", "pediatrics", "icu"]
+  }
+]
