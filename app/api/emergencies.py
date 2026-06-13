@@ -25,3 +25,29 @@ def get_emergencies():
         data = [item for item in data if item.get('medical_emergency') == is_medical]
         
     return jsonify(data)
+
+@emergencies_bp.route('/analyze', methods=['POST'])
+def analyze_emergency():
+    """
+    Analyze an emergency request using the Rescue Agent.
+    
+    Expects:
+    JSON request body containing emergency details (severity, people_count, medical_emergency, etc.)
+    
+    Returns:
+    JSON response containing the analysis, urgency level, and assigned priority.
+    """
+    data = request.get_json()
+    if not data:
+        return jsonify({"error": "No request data provided"}), 400
+        
+    try:
+        from agents.rescue_agent import run_rescue_agent
+        result = run_rescue_agent(data)
+        return jsonify(result), 200
+    except Exception as e:
+        return jsonify({
+            "error": "Failed to analyze request",
+            "message": str(e)
+        }), 500
+

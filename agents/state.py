@@ -14,3 +14,24 @@ class RescueAgentState(TypedDict):
     
     # Full parsed JSON dictionary result
     agent_output: Optional[Dict[str, Any]]
+
+class MedicalAgentState(TypedDict):
+    """
+    State representing the data flow in the Medical Agent graph.
+    """
+    # The input emergency request data
+    request: Dict[str, Any]
+    
+    # Needs analysis outputs
+    injury_analysis: Optional[str]
+    required_care: Optional[str]
+    required_specialties: Optional[list]
+    medical_priority: Optional[str]
+    recommended_action: Optional[str]
+    
+    # Recommended hospital output
+    hospital_recommendation: Optional[Dict[str, Any]]
+    
+    # Full parsed JSON result
+    agent_output: Optional[Dict[str, Any]]
+
